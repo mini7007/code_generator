@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Love Message Generator</title>
+		<link rel="stylesheet" type="text/css" href="css/style.min.css">
+		<script type="text/javascript" src="js/main.min.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-81940512-2', 'auto');
+		  ga('send', 'pageview');
+		</script>
+	</head>	
+	<body onload="generateMessage()">
+		<div class="wrapper">
+			<h2><strong>Love Message Generator</strong></h2>
+			<p class="intro">Send short messages to me and make me happy.
+			<div class="messageWrapper">
+				<i class="quote">"</i>
+				<p id="messageDisplay"></p>
+				<i class="quote">"</i>
+			</div>
+			<div>
+				<button id="getMessage" onclick="generateMessage()">New Message</button>
+				<p class="intro">
+					Just copy and send through SMS or Whatsapp.<br>
+			SMS is highly encouraged
+				</p>
+			</div>
+		</div>
+		<footer>Design by <a href="#" target="_blank">Mini</a></footer>
+	</body>
+</html>
